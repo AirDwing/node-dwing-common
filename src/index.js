@@ -105,6 +105,15 @@ exports.sha1 = (str) => crypto.createHash('sha1').update(`${str}`).digest('hex')
 exports.sha256 = (str) => crypto.createHash('sha256').update(`${str}`).digest('hex');
 
 /**
+ * Hmac
+ * @param  {string} str 待加密字符串
+ * @param  {string} type sha1或sha256
+ * @param  {string} key 密钥
+ * @return {string}
+ */
+exports.hmac = (str, type = 'sha1', key = '') => crypto.createHmac(type, key).update(new Buffer(str, 'utf8')).digest('base64');
+
+/**
  * IP2INT
  * @param {str} ip IP地址，如1.2.3.4
  * @returns {number} IP数值

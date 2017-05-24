@@ -18,13 +18,7 @@ const {md5} = require('@dwing/common');
 console.log(md5('1'));
 ```
 
-## License
-
-MIT
-
-通过支付宝捐赠：
-
-![qr](https://cloud.githubusercontent.com/assets/1890238/15489630/fccbb9cc-2193-11e6-9fed-b93c59d6ef37.png)
+## 具体参数
 
 ### Members
 
@@ -122,6 +116,102 @@ UNIX标准时间戳
 
 </dl>
 
+#### <span class="type-signature"></span>hmac<span class="signature">(str, type, key)</span> <span class="type-signature">→ {string}</span>
+
+<div class="description">
+
+Hmac
+
+</div>
+
+##### Parameters:
+
+<table class="params">
+
+<thead>
+
+<tr>
+
+<th>Name</th>
+
+<th>Type</th>
+
+<th class="last">Description</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td class="name">`str`</td>
+
+<td class="type"><span class="param-type">string</span></td>
+
+<td class="description last">
+
+待加密字符串
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="name">`type`</td>
+
+<td class="type"><span class="param-type">string</span></td>
+
+<td class="description last">
+
+sha1或sha256
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="name">`key`</td>
+
+<td class="type"><span class="param-type">string</span></td>
+
+<td class="description last">
+
+密钥
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+<dl class="details">
+
+<dt class="tag-source">Source:</dt>
+
+<dd class="tag-source">
+
+*   [index.js](index.js.html), [line 114](index.js.html#line114)
+
+</dd>
+
+</dl>
+
+##### Returns:
+
+<dl>
+
+<dt>Type</dt>
+
+<dd><span class="param-type">string</span></dd>
+
+</dl>
+
 #### <span class="type-signature"></span>int2ip<span class="signature">(num)</span> <span class="type-signature">→ {string}</span>
 
 <div class="description">
@@ -174,7 +264,7 @@ IP数值
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 125](index.js.html#line125)
+*   [index.js](index.js.html), [line 134](index.js.html#line134)
 
 </dd>
 
@@ -248,7 +338,7 @@ IP地址，如1.2.3.4
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 112](index.js.html#line112)
+*   [index.js](index.js.html), [line 121](index.js.html#line121)
 
 </dd>
 
@@ -766,7 +856,7 @@ validPassword
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 140](index.js.html#line140)
+*   [index.js](index.js.html), [line 149](index.js.html#line149)
 
 </dd>
 
@@ -787,3 +877,11 @@ isValid
 <dd><span class="param-type">boolean</span></dd>
 
 </dl>
+
+## License
+
+MIT
+
+通过支付宝捐赠：
+
+![qr](https://cloud.githubusercontent.com/assets/1890238/15489630/fccbb9cc-2193-11e6-9fed-b93c59d6ef37.png)

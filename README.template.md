@@ -18,6 +18,10 @@ const {md5} = require('@dwing/common');
 console.log(md5('1'));
 ```
 
+## 具体参数
+
+<!-- CODE -->
+
 ## License
 
 MIT
