@@ -1,4 +1,4 @@
-# dwing-Common
+# Dwing-Common
 
 [![npm](https://img.shields.io/npm/v/dwing-common.svg?style=plastic)](https://npmjs.org/package/dwing-common) [![npm](https://img.shields.io/npm/dt/dwing-common.svg?style=plastic)](https://npmjs.org/package/dwing-common)
 

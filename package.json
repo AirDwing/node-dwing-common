@@ -1,13 +1,14 @@
 {
-  "name": "dwing-common",
-  "version": "1.0.8",
+  "name": "@dwing/common",
+  "version": "1.0.0",
   "description": "Node.js 通用类",
   "main": "src/index.js",
   "engines": {
     "node": ">= 7.3.0"
   },
   "scripts": {
-    "compile": "./node_modules/.bin/jsdoc --configure .jsdoc.json && node ./src/compiler"
+    "compile": "./node_modules/.bin/jsdoc --configure .jsdoc.json && node ./src/compiler",
+    "prepublish": "npm run compile"
   },
   "repository": {
     "type": "git",
