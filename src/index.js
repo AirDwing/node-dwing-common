@@ -14,6 +14,27 @@ exports.getTimestamp = () => parseInt(new Date().getTime() / 1000, 10);
  */
 exports.uuid = () => uuid.v4();
 
+const numberReg = /^((-?\d*\.?\d*(?:e[+-]?\d*(?:\d?\.?|\.?\d?)\d*)?)|(0[0-7]+)|(0x[0-9a-f]+))$/i;
+
+/**
+ * 判断是否为数字字符串
+ * @param {*} obj 任意
+ * @return {boolean} 是否为数字字符串
+ */
+exports.isNumberString = (obj) => {
+  if (!obj) {
+    return false;
+  }
+  return numberReg.test(obj);
+};
+
+/**
+ * 判断是否为对象
+ * @param {*} obj 任意
+ * @return {boolean} 是否为对象
+ */
+exports.isObject = isObject;
+
 /**
  * 判断是否为空
  * @param  {*} obj 任意
@@ -77,15 +98,11 @@ exports.md5 = (str) => crypto.createHash('md5').update(`${str}`).digest('hex');
 exports.sha1 = (str) => crypto.createHash('sha1').update(`${str}`).digest('hex');
 
 /**
- * SHA1
+ * SHA256
  * @param  {string} str
  * @return {string}
  */
-exports.sha1 = (str) => {
-  const instance = crypto.createHash('sha1');
-  instance.update(`${str}`);
-  return instance.digest('hex');
-};
+exports.sha256 = (str) => crypto.createHash('sha256').update(`${str}`).digest('hex');
 
 /**
  * IP2INT

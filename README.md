@@ -26,6 +26,28 @@ MIT
 
 ![qr](https://cloud.githubusercontent.com/assets/1890238/15489630/fccbb9cc-2193-11e6-9fed-b93c59d6ef37.png)
 
+### Members
+
+#### <span class="type-signature"></span>isObject<span class="type-signature"></span>
+
+<div class="description">
+
+判断是否为对象
+
+</div>
+
+<dl class="details">
+
+<dt class="tag-source">Source:</dt>
+
+<dd class="tag-source">
+
+*   [index.js](index.js.html), [line 36](index.js.html#line36)
+
+</dd>
+
+</dl>
+
 ### Methods
 
 #### <span class="type-signature"></span>getDefer<span class="signature">()</span> <span class="type-signature">→ {Promise.defer}</span>
@@ -42,7 +64,7 @@ getDefer
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 56](index.js.html#line56)
+*   [index.js](index.js.html), [line 77](index.js.html#line77)
 
 </dd>
 
@@ -152,7 +174,7 @@ IP数值
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 108](index.js.html#line108)
+*   [index.js](index.js.html), [line 125](index.js.html#line125)
 
 </dd>
 
@@ -226,7 +248,7 @@ IP地址，如1.2.3.4
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 95](index.js.html#line95)
+*   [index.js](index.js.html), [line 112](index.js.html#line112)
 
 </dd>
 
@@ -300,7 +322,7 @@ IP数值
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 22](index.js.html#line22)
+*   [index.js](index.js.html), [line 43](index.js.html#line43)
 
 </dd>
 
@@ -311,6 +333,80 @@ IP数值
 <div class="param-desc">
 
 真为空，假为非空
+
+</div>
+
+<dl>
+
+<dt>Type</dt>
+
+<dd><span class="param-type">boolean</span></dd>
+
+</dl>
+
+#### <span class="type-signature"></span>isNumberString<span class="signature">(obj)</span> <span class="type-signature">→ {boolean}</span>
+
+<div class="description">
+
+判断是否为数字字符串
+
+</div>
+
+##### Parameters:
+
+<table class="params">
+
+<thead>
+
+<tr>
+
+<th>Name</th>
+
+<th>Type</th>
+
+<th class="last">Description</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td class="name">`obj`</td>
+
+<td class="type"><span class="param-type">*</span></td>
+
+<td class="description last">
+
+任意
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+<dl class="details">
+
+<dt class="tag-source">Source:</dt>
+
+<dd class="tag-source">
+
+*   [index.js](index.js.html), [line 24](index.js.html#line24)
+
+</dd>
+
+</dl>
+
+##### Returns:
+
+<div class="param-desc">
+
+是否为数字字符串
 
 </div>
 
@@ -370,7 +466,7 @@ MD5
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 70](index.js.html#line70)
+*   [index.js](index.js.html), [line 91](index.js.html#line91)
 
 </dd>
 
@@ -438,7 +534,7 @@ MD5
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 42](index.js.html#line42)
+*   [index.js](index.js.html), [line 63](index.js.html#line63)
 
 </dd>
 
@@ -502,7 +598,7 @@ SHA1
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 84](index.js.html#line84)
+*   [index.js](index.js.html), [line 98](index.js.html#line98)
 
 </dd>
 
@@ -518,11 +614,11 @@ SHA1
 
 </dl>
 
-#### <span class="type-signature"></span>sha1<span class="signature">(str)</span> <span class="type-signature">→ {string}</span>
+#### <span class="type-signature"></span>sha256<span class="signature">(str)</span> <span class="type-signature">→ {string}</span>
 
 <div class="description">
 
-SHA1
+SHA256
 
 </div>
 
@@ -566,7 +662,7 @@ SHA1
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 77](index.js.html#line77)
+*   [index.js](index.js.html), [line 105](index.js.html#line105)
 
 </dd>
 
@@ -670,7 +766,7 @@ validPassword
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 123](index.js.html#line123)
+*   [index.js](index.js.html), [line 140](index.js.html#line140)
 
 </dd>
 
