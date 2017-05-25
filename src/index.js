@@ -71,6 +71,21 @@ exports.randStr = (len) => {
 };
 
 /**
+ * 随机数字字符串
+ * @param  {int} len 字符串长度
+ * @return {string}
+ */
+exports.randNumberStr = (len) => {
+  const x = '0123456789';
+  const maxPos = x.length;
+  let pwd = '';
+  for (let i = 0; i < len; i++) {
+    pwd += x.charAt(Math.floor(Math.random() * maxPos));
+  }
+  return pwd;
+};
+
+/**
  * getDefer
  * @return {Promise.defer} defer对象
  */

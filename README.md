@@ -58,7 +58,7 @@ getDefer
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 77](index.js.html#line77)
+*   [index.js](index.js.html), [line 92](index.js.html#line92)
 
 </dd>
 
@@ -196,7 +196,7 @@ sha1或sha256
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 114](index.js.html#line114)
+*   [index.js](index.js.html), [line 129](index.js.html#line129)
 
 </dd>
 
@@ -264,7 +264,7 @@ IP数值
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 134](index.js.html#line134)
+*   [index.js](index.js.html), [line 149](index.js.html#line149)
 
 </dd>
 
@@ -338,7 +338,7 @@ IP地址，如1.2.3.4
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 121](index.js.html#line121)
+*   [index.js](index.js.html), [line 136](index.js.html#line136)
 
 </dd>
 
@@ -556,7 +556,75 @@ MD5
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 91](index.js.html#line91)
+*   [index.js](index.js.html), [line 106](index.js.html#line106)
+
+</dd>
+
+</dl>
+
+##### Returns:
+
+<dl>
+
+<dt>Type</dt>
+
+<dd><span class="param-type">string</span></dd>
+
+</dl>
+
+#### <span class="type-signature"></span>randNumberStr<span class="signature">(len)</span> <span class="type-signature">→ {string}</span>
+
+<div class="description">
+
+随机数字字符串
+
+</div>
+
+##### Parameters:
+
+<table class="params">
+
+<thead>
+
+<tr>
+
+<th>Name</th>
+
+<th>Type</th>
+
+<th class="last">Description</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td class="name">`len`</td>
+
+<td class="type"><span class="param-type">int</span></td>
+
+<td class="description last">
+
+字符串长度
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+<dl class="details">
+
+<dt class="tag-source">Source:</dt>
+
+<dd class="tag-source">
+
+*   [index.js](index.js.html), [line 78](index.js.html#line78)
 
 </dd>
 
@@ -688,7 +756,7 @@ SHA1
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 98](index.js.html#line98)
+*   [index.js](index.js.html), [line 113](index.js.html#line113)
 
 </dd>
 
@@ -752,7 +820,7 @@ SHA256
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 105](index.js.html#line105)
+*   [index.js](index.js.html), [line 120](index.js.html#line120)
 
 </dd>
 
@@ -856,7 +924,7 @@ validPassword
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 149](index.js.html#line149)
+*   [index.js](index.js.html), [line 164](index.js.html#line164)
 
 </dd>
 
