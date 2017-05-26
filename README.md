@@ -80,6 +80,80 @@ defer对象
 
 </dl>
 
+#### <span class="type-signature"></span>getMobile<span class="signature">(mobile)</span> <span class="type-signature">→ {string}</span>
+
+<div class="description">
+
+获取手机号码
+
+</div>
+
+##### Parameters:
+
+<table class="params">
+
+<thead>
+
+<tr>
+
+<th>Name</th>
+
+<th>Type</th>
+
+<th class="last">Description</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td class="name">`mobile`</td>
+
+<td class="type"><span class="param-type">string</span></td>
+
+<td class="description last">
+
+手机号字符串
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+<dl class="details">
+
+<dt class="tag-source">Source:</dt>
+
+<dd class="tag-source">
+
+*   [index.js](index.js.html), [line 164](index.js.html#line164)
+
+</dd>
+
+</dl>
+
+##### Returns:
+
+<div class="param-desc">
+
+非手机号返回空字符串,否则返回去掉+86的手机号码
+
+</div>
+
+<dl>
+
+<dt>Type</dt>
+
+<dd><span class="param-type">string</span></dd>
+
+</dl>
+
 #### <span class="type-signature"></span>getTimestamp<span class="signature">()</span> <span class="type-signature">→ {int}</span>
 
 <div class="description">
@@ -924,7 +998,7 @@ validPassword
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 164](index.js.html#line164)
+*   [index.js](index.js.html), [line 176](index.js.html#line176)
 
 </dd>
 
