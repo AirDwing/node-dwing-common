@@ -1,6 +1,6 @@
 {
   "name": "@dwing/common",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Node.js 通用类",
   "main": "src/index.js",
   "engines": {
@@ -29,8 +29,7 @@
   "devDependencies": {
     "cheerio": "^0.20.0",
     "eslint": "^3.0.1",
-    "eslint-config-airbnb": "^9.0.1",
-    "eslint-plugin-import": "^1.10.2",
+    "eslint-config-dwing": "*",
     "jsdoc": "^3.4.0",
     "to-markdown": "^3.0.0"
   },
