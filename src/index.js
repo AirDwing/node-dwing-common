@@ -64,7 +64,7 @@ exports.randStr = (len) => {
   const x = 'abcdefhijkmnprstwxyz2345678';
   const maxPos = x.length;
   let pwd = '';
-  for (let i = 0; i < len; i++) {
+  for (let i = 0; i < len; i += 1) {
     pwd += x.charAt(Math.floor(Math.random() * maxPos));
   }
   return pwd;
@@ -79,7 +79,7 @@ exports.randNumberStr = (len) => {
   const x = '0123456789';
   const maxPos = x.length;
   let pwd = '';
-  for (let i = 0; i < len; i++) {
+  for (let i = 0; i < len; i += 1) {
     pwd += x.charAt(Math.floor(Math.random() * maxPos));
   }
   return pwd;
@@ -103,21 +103,21 @@ exports.getDefer = () => {
  * @param  {string} str
  * @return {string}
  */
-exports.md5 = (str) => crypto.createHash('md5').update(`${str}`).digest('hex');
+exports.md5 = str => crypto.createHash('md5').update(`${str}`).digest('hex');
 
 /**
  * SHA1
  * @param  {string} str
  * @return {string}
  */
-exports.sha1 = (str) => crypto.createHash('sha1').update(`${str}`).digest('hex');
+exports.sha1 = str => crypto.createHash('sha1').update(`${str}`).digest('hex');
 
 /**
  * SHA256
  * @param  {string} str
  * @return {string}
  */
-exports.sha256 = (str) => crypto.createHash('sha256').update(`${str}`).digest('hex');
+exports.sha256 = str => crypto.createHash('sha256').update(`${str}`).digest('hex');
 
 /**
  * Hmac
@@ -137,7 +137,7 @@ exports.ip2int = (ips) => {
   let num;
   const ip = ips.split('.');
   num = Number(ip[0]) * 256 * 256 * 256 + Number(ip[1]) * 256 * 256 + Number(ip[2]) * 256 + Number(ip[3]);
-  num = num >>> 0;
+  num >>>= 0;
   return num;
 };
 
@@ -190,15 +190,15 @@ exports.validPassword = (password) => {
    * 如 7654321 fedcba
    */
   const n = [1, 1, 1];
-  for (let l = 1; l < password.length; l++) {
+  for (let l = 1; l < password.length; l += 1) {
     if (password.charAt(l - 1) === password.charAt(l)) {
-      n[0]++;
+      n[0] += 1;
     }
     if (password.charAt(l - 1).charCodeAt(0) + 1 === password.charAt(l).charCodeAt(0)) {
-      n[1]++;
+      n[1] += 1;
     }
     if (password.charAt(l - 1).charCodeAt(0) - 1 === password.charAt(l).charCodeAt(0)) {
-      n[2]++;
+      n[2] += 1;
     }
     if (n[0] > 4 || n[1] > 4 || n[2] > 4) {
       return false;

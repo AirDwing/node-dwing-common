@@ -1,3 +1,6 @@
 module.exports = {
-  extends: 'dwing'
+  extends: 'dwing',
+  rules: {
+    'no-bitwise':0 
+  }
 };
