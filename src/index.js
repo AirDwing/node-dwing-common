@@ -86,6 +86,14 @@ exports.randNumberStr = (len) => {
 };
 
 /**
+ * 随机数
+ * @param {int} m m
+ * @param {int} n n
+ * @return {int}  生成 m 到 n 的随机整数
+ */
+exports.randNumber = (m, n = m) => parseInt(Math.random() * (n - m) + m, 10);
+
+/**
  * getDefer
  * @return {Promise.defer} defer对象
  */

@@ -58,7 +58,7 @@ getDefer
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 92](index.js.html#line92)
+*   [index.js](index.js.html), [line 100](index.js.html#line100)
 
 </dd>
 
@@ -132,7 +132,7 @@ defer对象
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 164](index.js.html#line164)
+*   [index.js](index.js.html), [line 172](index.js.html#line172)
 
 </dd>
 
@@ -270,7 +270,7 @@ sha1或sha256
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 129](index.js.html#line129)
+*   [index.js](index.js.html), [line 137](index.js.html#line137)
 
 </dd>
 
@@ -338,7 +338,7 @@ IP数值
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 149](index.js.html#line149)
+*   [index.js](index.js.html), [line 157](index.js.html#line157)
 
 </dd>
 
@@ -412,7 +412,7 @@ IP地址，如1.2.3.4
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 136](index.js.html#line136)
+*   [index.js](index.js.html), [line 144](index.js.html#line144)
 
 </dd>
 
@@ -630,7 +630,7 @@ MD5
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 106](index.js.html#line106)
+*   [index.js](index.js.html), [line 114](index.js.html#line114)
 
 </dd>
 
@@ -643,6 +643,94 @@ MD5
 <dt>Type</dt>
 
 <dd><span class="param-type">string</span></dd>
+
+</dl>
+
+#### <span class="type-signature"></span>randNumber<span class="signature">(m, n)</span> <span class="type-signature">→ {int}</span>
+
+<div class="description">
+
+随机数
+
+</div>
+
+##### Parameters:
+
+<table class="params">
+
+<thead>
+
+<tr>
+
+<th>Name</th>
+
+<th>Type</th>
+
+<th class="last">Description</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td class="name">`m`</td>
+
+<td class="type"><span class="param-type">int</span></td>
+
+<td class="description last">
+
+m
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="name">`n`</td>
+
+<td class="type"><span class="param-type">int</span></td>
+
+<td class="description last">
+
+n
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+<dl class="details">
+
+<dt class="tag-source">Source:</dt>
+
+<dd class="tag-source">
+
+*   [index.js](index.js.html), [line 94](index.js.html#line94)
+
+</dd>
+
+</dl>
+
+##### Returns:
+
+<div class="param-desc">
+
+生成 m 到 n 的随机整数
+
+</div>
+
+<dl>
+
+<dt>Type</dt>
+
+<dd><span class="param-type">int</span></dd>
 
 </dl>
 
@@ -830,7 +918,7 @@ SHA1
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 113](index.js.html#line113)
+*   [index.js](index.js.html), [line 121](index.js.html#line121)
 
 </dd>
 
@@ -894,7 +982,7 @@ SHA256
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 120](index.js.html#line120)
+*   [index.js](index.js.html), [line 128](index.js.html#line128)
 
 </dd>
 
@@ -998,7 +1086,7 @@ validPassword
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 176](index.js.html#line176)
+*   [index.js](index.js.html), [line 184](index.js.html#line184)
 
 </dd>
 
