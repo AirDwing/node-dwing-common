@@ -36,13 +36,101 @@ console.log(md5('1'));
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 36](index.js.html#line36)
+*   [index.js](index.js.html), [line 61](index.js.html#line61)
 
 </dd>
 
 </dl>
 
 ### Methods
+
+#### <span class="type-signature"></span>formatDate<span class="signature">(inputPattern, inputDate)</span> <span class="type-signature">→ {string}</span>
+
+<div class="description">
+
+格式化时间
+
+</div>
+
+##### Parameters:
+
+<table class="params">
+
+<thead>
+
+<tr>
+
+<th>Name</th>
+
+<th>Type</th>
+
+<th class="last">Description</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td class="name">`inputPattern`</td>
+
+<td class="type"><span class="param-type">string</span></td>
+
+<td class="description last">
+
+时间格式,默认为'yyyy-MM-dd hh:mm:ss'
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="name">`inputDate`</td>
+
+<td class="type"><span class="param-type">any</span></td>
+
+<td class="description last">
+
+输入时间,默认为当前
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+<dl class="details">
+
+<dt class="tag-source">Source:</dt>
+
+<dd class="tag-source">
+
+*   [index.js](index.js.html), [line 17](index.js.html#line17)
+
+</dd>
+
+</dl>
+
+##### Returns:
+
+<div class="param-desc">
+
+格式化的时间
+
+</div>
+
+<dl>
+
+<dt>Type</dt>
+
+<dd><span class="param-type">string</span></dd>
+
+</dl>
 
 #### <span class="type-signature"></span>getDefer<span class="signature">()</span> <span class="type-signature">→ {Promise.defer}</span>
 
@@ -58,7 +146,7 @@ getDefer
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 100](index.js.html#line100)
+*   [index.js](index.js.html), [line 125](index.js.html#line125)
 
 </dd>
 
@@ -132,7 +220,7 @@ defer对象
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 172](index.js.html#line172)
+*   [index.js](index.js.html), [line 197](index.js.html#line197)
 
 </dd>
 
@@ -270,7 +358,7 @@ sha1或sha256
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 137](index.js.html#line137)
+*   [index.js](index.js.html), [line 162](index.js.html#line162)
 
 </dd>
 
@@ -338,7 +426,7 @@ IP数值
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 157](index.js.html#line157)
+*   [index.js](index.js.html), [line 182](index.js.html#line182)
 
 </dd>
 
@@ -412,7 +500,7 @@ IP地址，如1.2.3.4
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 144](index.js.html#line144)
+*   [index.js](index.js.html), [line 169](index.js.html#line169)
 
 </dd>
 
@@ -486,7 +574,7 @@ IP数值
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 43](index.js.html#line43)
+*   [index.js](index.js.html), [line 68](index.js.html#line68)
 
 </dd>
 
@@ -560,7 +648,7 @@ IP数值
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 24](index.js.html#line24)
+*   [index.js](index.js.html), [line 49](index.js.html#line49)
 
 </dd>
 
@@ -630,7 +718,7 @@ MD5
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 114](index.js.html#line114)
+*   [index.js](index.js.html), [line 139](index.js.html#line139)
 
 </dd>
 
@@ -712,7 +800,7 @@ n
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 94](index.js.html#line94)
+*   [index.js](index.js.html), [line 119](index.js.html#line119)
 
 </dd>
 
@@ -786,7 +874,7 @@ n
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 78](index.js.html#line78)
+*   [index.js](index.js.html), [line 103](index.js.html#line103)
 
 </dd>
 
@@ -854,7 +942,7 @@ n
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 63](index.js.html#line63)
+*   [index.js](index.js.html), [line 88](index.js.html#line88)
 
 </dd>
 
@@ -918,7 +1006,7 @@ SHA1
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 121](index.js.html#line121)
+*   [index.js](index.js.html), [line 146](index.js.html#line146)
 
 </dd>
 
@@ -982,7 +1070,7 @@ SHA256
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 128](index.js.html#line128)
+*   [index.js](index.js.html), [line 153](index.js.html#line153)
 
 </dd>
 
@@ -1012,7 +1100,7 @@ SHA256
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 15](index.js.html#line15)
+*   [index.js](index.js.html), [line 40](index.js.html#line40)
 
 </dd>
 
@@ -1086,7 +1174,7 @@ validPassword
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 184](index.js.html#line184)
+*   [index.js](index.js.html), [line 209](index.js.html#line209)
 
 </dd>
 
