@@ -54,6 +54,13 @@ exports.isNumberString = (obj) => {
 };
 
 /**
+ * 判断是否为数字
+ * @param {*} obj 任意
+ * @return {boolean} 是否为数字
+ */
+exports.isNumber = isNumber;
+
+/**
  * 判断是否为对象
  * @param {*} obj 任意
  * @return {boolean} 是否为对象

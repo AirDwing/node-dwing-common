@@ -22,6 +22,26 @@ console.log(md5('1'));
 
 ### Members
 
+#### <span class="type-signature"></span>isNumber<span class="type-signature"></span>
+
+<div class="description">
+
+判断是否为数字
+
+</div>
+
+<dl class="details">
+
+<dt class="tag-source">Source:</dt>
+
+<dd class="tag-source">
+
+*   [index.js](index.js.html), [line 61](index.js.html#line61)
+
+</dd>
+
+</dl>
+
 #### <span class="type-signature"></span>isObject<span class="type-signature"></span>
 
 <div class="description">
@@ -36,7 +56,7 @@ console.log(md5('1'));
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 61](index.js.html#line61)
+*   [index.js](index.js.html), [line 68](index.js.html#line68)
 
 </dd>
 
@@ -146,7 +166,7 @@ getDefer
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 125](index.js.html#line125)
+*   [index.js](index.js.html), [line 132](index.js.html#line132)
 
 </dd>
 
@@ -220,7 +240,7 @@ defer对象
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 197](index.js.html#line197)
+*   [index.js](index.js.html), [line 204](index.js.html#line204)
 
 </dd>
 
@@ -358,7 +378,7 @@ sha1或sha256
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 162](index.js.html#line162)
+*   [index.js](index.js.html), [line 169](index.js.html#line169)
 
 </dd>
 
@@ -426,7 +446,7 @@ IP数值
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 182](index.js.html#line182)
+*   [index.js](index.js.html), [line 189](index.js.html#line189)
 
 </dd>
 
@@ -500,7 +520,7 @@ IP地址，如1.2.3.4
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 169](index.js.html#line169)
+*   [index.js](index.js.html), [line 176](index.js.html#line176)
 
 </dd>
 
@@ -574,7 +594,7 @@ IP数值
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 68](index.js.html#line68)
+*   [index.js](index.js.html), [line 75](index.js.html#line75)
 
 </dd>
 
@@ -718,7 +738,7 @@ MD5
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 139](index.js.html#line139)
+*   [index.js](index.js.html), [line 146](index.js.html#line146)
 
 </dd>
 
@@ -800,7 +820,7 @@ n
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 119](index.js.html#line119)
+*   [index.js](index.js.html), [line 126](index.js.html#line126)
 
 </dd>
 
@@ -874,7 +894,7 @@ n
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 103](index.js.html#line103)
+*   [index.js](index.js.html), [line 110](index.js.html#line110)
 
 </dd>
 
@@ -942,7 +962,7 @@ n
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 88](index.js.html#line88)
+*   [index.js](index.js.html), [line 95](index.js.html#line95)
 
 </dd>
 
@@ -1006,7 +1026,7 @@ SHA1
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 146](index.js.html#line146)
+*   [index.js](index.js.html), [line 153](index.js.html#line153)
 
 </dd>
 
@@ -1070,7 +1090,7 @@ SHA256
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 153](index.js.html#line153)
+*   [index.js](index.js.html), [line 160](index.js.html#line160)
 
 </dd>
 
@@ -1174,7 +1194,7 @@ validPassword
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 209](index.js.html#line209)
+*   [index.js](index.js.html), [line 216](index.js.html#line216)
 
 </dd>
 
