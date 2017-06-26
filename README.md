@@ -240,7 +240,7 @@ defer对象
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 204](index.js.html#line204)
+*   [index.js](index.js.html), [line 216](index.js.html#line216)
 
 </dd>
 
@@ -446,7 +446,7 @@ IP数值
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 189](index.js.html#line189)
+*   [index.js](index.js.html), [line 201](index.js.html#line201)
 
 </dd>
 
@@ -745,6 +745,108 @@ MD5
 </dl>
 
 ##### Returns:
+
+<dl>
+
+<dt>Type</dt>
+
+<dd><span class="param-type">string</span></dd>
+
+</dl>
+
+#### <span class="type-signature"></span>pad<span class="signature">(n, len, char)</span> <span class="type-signature">→ {string}</span>
+
+<div class="description">
+
+Pad Numbers
+
+</div>
+
+##### Parameters:
+
+<table class="params">
+
+<thead>
+
+<tr>
+
+<th>Name</th>
+
+<th>Type</th>
+
+<th class="last">Description</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td class="name">`n`</td>
+
+<td class="type"><span class="param-type">int</span></td>
+
+<td class="description last">
+
+数值
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="name">`len`</td>
+
+<td class="type"><span class="param-type">int</span></td>
+
+<td class="description last">
+
+补位长度
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="name">`char`</td>
+
+<td class="type"><span class="param-type">char</span></td>
+
+<td class="description last">
+
+补位字符，默认：0
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+<dl class="details">
+
+<dt class="tag-source">Source:</dt>
+
+<dd class="tag-source">
+
+*   [index.js](index.js.html), [line 191](index.js.html#line191)
+
+</dd>
+
+</dl>
+
+##### Returns:
+
+<div class="param-desc">
+
+IP地址，如1.2.3.4
+
+</div>
 
 <dl>
 
@@ -1194,7 +1296,7 @@ validPassword
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 216](index.js.html#line216)
+*   [index.js](index.js.html), [line 228](index.js.html#line228)
 
 </dd>
 

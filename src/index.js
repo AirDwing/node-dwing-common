@@ -182,6 +182,18 @@ exports.ip2int = (ips) => {
 };
 
 /**
+ * Pad Numbers
+ * @param {int} n 数值
+ * @param {int} len 补位长度
+ * @param {char} char 补位字符，默认：0
+ * @returns {string} IP地址，如1.2.3.4
+ */
+exports.pad = (n, len, char = '0') => {
+  const str = `${n}`;
+  return str.length >= len ? str : new Array(len - str.length + 1).join(char) + n;
+};
+
+/**
  * INT2IP
  * @param {int} num IP数值
  * @returns {string} IP地址，如1.2.3.4
