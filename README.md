@@ -1,6 +1,6 @@
 # Dwing Common
 
-[![npm](https://img.shields.io/npm/v/@dwing/common.svg?style=plastic)](https://npmjs.org/package/@dwing/common) [![npm](https://img.shields.io/npm/dt/@dwing/common.svg?style=plastic)](https://npmjs.org/package/@dwing/common)
+[![npm](https://img.shields.io/npm/v/@dwing/common.svg?style=plastic)](https://npmjs.org/package/@dwing/common) [![npm](https://img.shields.io/npm/dt/@dwing/common.svg?style=plastic)](https://npmjs.org/package/@dwing/common) [![API Doc](https://doclets.io/AirDwing/node-dwing-common/master.svg)](https://doclets.io/AirDwing/node-dwing-common/master)
 
 ## 安装
 
