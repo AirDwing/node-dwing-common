@@ -269,6 +269,10 @@ exports.pad = (n, len, char = '0') => {
  * 获取手机号码
  * @param {string} mobile 手机号字符串
  * @return {string} 非手机号返回空字符串,否则返回去掉+86的手机号码
+ * @playground
+ * const { getMobile } = require('@dwing/common');
+ * const result = getMobile('+8613212341234');
+ * console.log(result);
  */
 exports.getMobile = (mobile) => {
   if (typeof mobile !== 'string' || !/^\+?\d*$/.test(mobile)) {

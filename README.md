@@ -22,46 +22,6 @@ console.log(md5('1'));
 
 ### Members
 
-#### <span class="type-signature">(constant)</span> formatDate<span class="type-signature"></span>
-
-<div class="description">
-
-格式化时间
-
-</div>
-
-<dl class="details">
-
-<dt class="tag-source">Source:</dt>
-
-<dd class="tag-source">
-
-*   [index.js](index.js.html), [line 25](index.js.html#line25)
-
-</dd>
-
-</dl>
-
-#### <span class="type-signature">(constant)</span> getTimestamp<span class="type-signature"></span>
-
-<div class="description">
-
-获取UNIX标准时间戳
-
-</div>
-
-<dl class="details">
-
-<dt class="tag-source">Source:</dt>
-
-<dd class="tag-source">
-
-*   [index.js](index.js.html), [line 13](index.js.html#line13)
-
-</dd>
-
-</dl>
-
 #### <span class="type-signature"></span>isNumber<span class="type-signature"></span>
 
 <div class="description">
@@ -77,26 +37,6 @@ console.log(md5('1'));
 <dd class="tag-source">
 
 *   [index.js](index.js.html), [line 77](index.js.html#line77)
-
-</dd>
-
-</dl>
-
-#### <span class="type-signature">(constant)</span> isNumberString<span class="type-signature"></span>
-
-<div class="description">
-
-判断是否为数字字符串
-
-</div>
-
-<dl class="details">
-
-<dt class="tag-source">Source:</dt>
-
-<dd class="tag-source">
-
-*   [index.js](index.js.html), [line 65](index.js.html#line65)
 
 </dd>
 
@@ -122,7 +62,7 @@ console.log(md5('1'));
 
 </dl>
 
-#### <span class="type-signature">(constant)</span> uuid<span class="type-signature"></span>
+#### <span class="type-signature"></span>uuid<span class="type-signature"></span>
 
 <div class="description">
 
@@ -144,6 +84,94 @@ console.log(md5('1'));
 
 ### Methods
 
+#### <span class="type-signature"></span>formatDate<span class="signature">(inputPattern, inputDate)</span> <span class="type-signature">→ {string}</span>
+
+<div class="description">
+
+格式化时间
+
+</div>
+
+##### Parameters:
+
+<table class="params">
+
+<thead>
+
+<tr>
+
+<th>Name</th>
+
+<th>Type</th>
+
+<th class="last">Description</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td class="name">`inputPattern`</td>
+
+<td class="type"><span class="param-type">string</span></td>
+
+<td class="description last">
+
+时间格式,默认为'yyyy-MM-dd hh:mm:ss'
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="name">`inputDate`</td>
+
+<td class="type"><span class="param-type">any</span></td>
+
+<td class="description last">
+
+输入时间,默认为当前
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+<dl class="details">
+
+<dt class="tag-source">Source:</dt>
+
+<dd class="tag-source">
+
+*   [index.js](index.js.html), [line 25](index.js.html#line25)
+
+</dd>
+
+</dl>
+
+##### Returns:
+
+<div class="param-desc">
+
+格式化的时间
+
+</div>
+
+<dl>
+
+<dt>Type</dt>
+
+<dd><span class="param-type">string</span></dd>
+
+</dl>
+
 #### <span class="type-signature"></span>getDefer<span class="signature">()</span> <span class="type-signature">→ {Promise.defer}</span>
 
 <div class="description">
@@ -158,7 +186,7 @@ getDefer
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 146](index.js.html#line146)
+*   [index.js](index.js.html), [line 161](index.js.html#line161)
 
 </dd>
 
@@ -232,7 +260,7 @@ defer对象
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 230](index.js.html#line230)
+*   [index.js](index.js.html), [line 273](index.js.html#line273)
 
 </dd>
 
@@ -251,6 +279,42 @@ defer对象
 <dt>Type</dt>
 
 <dd><span class="param-type">string</span></dd>
+
+</dl>
+
+#### <span class="type-signature"></span>getTimestamp<span class="signature">()</span> <span class="type-signature">→ {int}</span>
+
+<div class="description">
+
+获取UNIX标准时间戳
+
+</div>
+
+<dl class="details">
+
+<dt class="tag-source">Source:</dt>
+
+<dd class="tag-source">
+
+*   [index.js](index.js.html), [line 13](index.js.html#line13)
+
+</dd>
+
+</dl>
+
+##### Returns:
+
+<div class="param-desc">
+
+UNIX标准时间戳
+
+</div>
+
+<dl>
+
+<dt>Type</dt>
+
+<dd><span class="param-type">int</span></dd>
 
 </dl>
 
@@ -334,7 +398,7 @@ sha1或sha256
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 183](index.js.html#line183)
+*   [index.js](index.js.html), [line 214](index.js.html#line214)
 
 </dd>
 
@@ -402,7 +466,7 @@ IP数值
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 215](index.js.html#line215)
+*   [index.js](index.js.html), [line 242](index.js.html#line242)
 
 </dd>
 
@@ -476,7 +540,7 @@ IP地址，如1.2.3.4
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 190](index.js.html#line190)
+*   [index.js](index.js.html), [line 225](index.js.html#line225)
 
 </dd>
 
@@ -550,7 +614,7 @@ IP数值
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 91](index.js.html#line91)
+*   [index.js](index.js.html), [line 95](index.js.html#line95)
 
 </dd>
 
@@ -561,6 +625,80 @@ IP数值
 <div class="param-desc">
 
 真为空，假为非空
+
+</div>
+
+<dl>
+
+<dt>Type</dt>
+
+<dd><span class="param-type">boolean</span></dd>
+
+</dl>
+
+#### <span class="type-signature"></span>isNumberString<span class="signature">(obj)</span> <span class="type-signature">→ {boolean}</span>
+
+<div class="description">
+
+判断是否为数字字符串
+
+</div>
+
+##### Parameters:
+
+<table class="params">
+
+<thead>
+
+<tr>
+
+<th>Name</th>
+
+<th>Type</th>
+
+<th class="last">Description</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td class="name">`obj`</td>
+
+<td class="type"><span class="param-type">*</span></td>
+
+<td class="description last">
+
+任意
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+<dl class="details">
+
+<dt class="tag-source">Source:</dt>
+
+<dd class="tag-source">
+
+*   [index.js](index.js.html), [line 65](index.js.html#line65)
+
+</dd>
+
+</dl>
+
+##### Returns:
+
+<div class="param-desc">
+
+是否为数字字符串
 
 </div>
 
@@ -620,7 +758,7 @@ MD5
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 160](index.js.html#line160)
+*   [index.js](index.js.html), [line 179](index.js.html#line179)
 
 </dd>
 
@@ -716,7 +854,7 @@ Pad Numbers
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 205](index.js.html#line205)
+*   [index.js](index.js.html), [line 263](index.js.html#line263)
 
 </dd>
 
@@ -804,7 +942,7 @@ n
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 140](index.js.html#line140)
+*   [index.js](index.js.html), [line 155](index.js.html#line155)
 
 </dd>
 
@@ -878,13 +1016,19 @@ n
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 129](index.js.html#line129)
+*   [index.js](index.js.html), [line 140](index.js.html#line140)
 
 </dd>
 
 </dl>
 
 ##### Returns:
+
+<div class="param-desc">
+
+const { randNumberStr } = require('@dwing/common'); const str = randNumberStr(6); console.log(str);
+
+</div>
 
 <dl>
 
@@ -946,7 +1090,7 @@ n
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 119](index.js.html#line119)
+*   [index.js](index.js.html), [line 127](index.js.html#line127)
 
 </dd>
 
@@ -1010,7 +1154,7 @@ SHA1
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 167](index.js.html#line167)
+*   [index.js](index.js.html), [line 190](index.js.html#line190)
 
 </dd>
 
@@ -1074,7 +1218,7 @@ SHA256
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 174](index.js.html#line174)
+*   [index.js](index.js.html), [line 201](index.js.html#line201)
 
 </dd>
 
@@ -1087,80 +1231,6 @@ SHA256
 <dt>Type</dt>
 
 <dd><span class="param-type">string</span></dd>
-
-</dl>
-
-#### <span class="type-signature"></span>validPassword<span class="signature">(password)</span> <span class="type-signature">→ {boolean}</span>
-
-<div class="description">
-
-validPassword
-
-</div>
-
-##### Parameters:
-
-<table class="params">
-
-<thead>
-
-<tr>
-
-<th>Name</th>
-
-<th>Type</th>
-
-<th class="last">Description</th>
-
-</tr>
-
-</thead>
-
-<tbody>
-
-<tr>
-
-<td class="name">`password`</td>
-
-<td class="type"><span class="param-type">string</span></td>
-
-<td class="description last">
-
-输入密码
-
-</td>
-
-</tr>
-
-</tbody>
-
-</table>
-
-<dl class="details">
-
-<dt class="tag-source">Source:</dt>
-
-<dd class="tag-source">
-
-*   [index.js](index.js.html), [line 242](index.js.html#line242)
-
-</dd>
-
-</dl>
-
-##### Returns:
-
-<div class="param-desc">
-
-isValid
-
-</div>
-
-<dl>
-
-<dt>Type</dt>
-
-<dd><span class="param-type">boolean</span></dd>
 
 </dl>
 
