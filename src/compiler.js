@@ -1,3 +1,4 @@
+/* eslint-disable import/no-extraneous-dependencies */
 const cheerio = require('cheerio');
 const tmd = require('to-markdown');
 const { readFileSync, writeFileSync } = require('fs');

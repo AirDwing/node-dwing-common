@@ -1,6 +1,6 @@
 # Dwing Common
 
-[![npm](https://img.shields.io/npm/v/@dwing/common.svg?style=plastic)](https://npmjs.org/package/@dwing/common) [![npm](https://img.shields.io/npm/dt/@dwing/common.svg?style=plastic)](https://npmjs.org/package/@dwing/common) [![API Doc](https://doclets.io/AirDwing/node-dwing-common/master.svg)](https://doclets.io/AirDwing/node-dwing-common/master)
+[![github](https://img.shields.io/github/followers/willin.svg?style=social&label=Follow)](https://github.com/willin) [![npm](https://img.shields.io/npm/v/@dwing/common.svg)](https://npmjs.org/package/@dwing/common) [![npm](https://img.shields.io/npm/dt/@dwing/common.svg)](https://npmjs.org/package/@dwing/common) [![codecov](https://codecov.io/gh/AirDwing/node-dwing-common/branch/master/graph/badge.svg)](https://codecov.io/gh/AirDwing/node-dwing-common) [![Travis-CI](https://travis-ci.org/AirDwing/node-dwing-common.svg?branch=master)](https://travis-ci.org/AirDwing/node-dwing-common) [![codebeat badge](https://codebeat.co/badges/49922bb9-ef93-4286-9fd0-3c2f0d595f3c)](https://codebeat.co/projects/github-com-airdwing-node-dwing-common-master) [![API Doc](https://doclets.io/AirDwing/node-dwing-common/master.svg)](https://doclets.io/AirDwing/node-dwing-common/master)
 
 ## 安装
 
@@ -22,6 +22,46 @@ console.log(md5('1'));
 
 ### Members
 
+#### <span class="type-signature">(constant)</span> formatDate<span class="type-signature"></span>
+
+<div class="description">
+
+格式化时间
+
+</div>
+
+<dl class="details">
+
+<dt class="tag-source">Source:</dt>
+
+<dd class="tag-source">
+
+*   [index.js](index.js.html), [line 25](index.js.html#line25)
+
+</dd>
+
+</dl>
+
+#### <span class="type-signature">(constant)</span> getTimestamp<span class="type-signature"></span>
+
+<div class="description">
+
+获取UNIX标准时间戳
+
+</div>
+
+<dl class="details">
+
+<dt class="tag-source">Source:</dt>
+
+<dd class="tag-source">
+
+*   [index.js](index.js.html), [line 13](index.js.html#line13)
+
+</dd>
+
+</dl>
+
 #### <span class="type-signature"></span>isNumber<span class="type-signature"></span>
 
 <div class="description">
@@ -36,7 +76,27 @@ console.log(md5('1'));
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 61](index.js.html#line61)
+*   [index.js](index.js.html), [line 77](index.js.html#line77)
+
+</dd>
+
+</dl>
+
+#### <span class="type-signature">(constant)</span> isNumberString<span class="type-signature"></span>
+
+<div class="description">
+
+判断是否为数字字符串
+
+</div>
+
+<dl class="details">
+
+<dt class="tag-source">Source:</dt>
+
+<dd class="tag-source">
+
+*   [index.js](index.js.html), [line 65](index.js.html#line65)
 
 </dd>
 
@@ -56,73 +116,19 @@ console.log(md5('1'));
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 68](index.js.html#line68)
+*   [index.js](index.js.html), [line 84](index.js.html#line84)
 
 </dd>
 
 </dl>
 
-### Methods
-
-#### <span class="type-signature"></span>formatDate<span class="signature">(inputPattern, inputDate)</span> <span class="type-signature">→ {string}</span>
+#### <span class="type-signature">(constant)</span> uuid<span class="type-signature"></span>
 
 <div class="description">
 
-格式化时间
+生成GUID
 
 </div>
-
-##### Parameters:
-
-<table class="params">
-
-<thead>
-
-<tr>
-
-<th>Name</th>
-
-<th>Type</th>
-
-<th class="last">Description</th>
-
-</tr>
-
-</thead>
-
-<tbody>
-
-<tr>
-
-<td class="name">`inputPattern`</td>
-
-<td class="type"><span class="param-type">string</span></td>
-
-<td class="description last">
-
-时间格式,默认为'yyyy-MM-dd hh:mm:ss'
-
-</td>
-
-</tr>
-
-<tr>
-
-<td class="name">`inputDate`</td>
-
-<td class="type"><span class="param-type">any</span></td>
-
-<td class="description last">
-
-输入时间,默认为当前
-
-</td>
-
-</tr>
-
-</tbody>
-
-</table>
 
 <dl class="details">
 
@@ -130,27 +136,13 @@ console.log(md5('1'));
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 17](index.js.html#line17)
+*   [index.js](index.js.html), [line 52](index.js.html#line52)
 
 </dd>
 
 </dl>
 
-##### Returns:
-
-<div class="param-desc">
-
-格式化的时间
-
-</div>
-
-<dl>
-
-<dt>Type</dt>
-
-<dd><span class="param-type">string</span></dd>
-
-</dl>
+### Methods
 
 #### <span class="type-signature"></span>getDefer<span class="signature">()</span> <span class="type-signature">→ {Promise.defer}</span>
 
@@ -166,7 +158,7 @@ getDefer
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 132](index.js.html#line132)
+*   [index.js](index.js.html), [line 146](index.js.html#line146)
 
 </dd>
 
@@ -240,7 +232,7 @@ defer对象
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 216](index.js.html#line216)
+*   [index.js](index.js.html), [line 230](index.js.html#line230)
 
 </dd>
 
@@ -259,42 +251,6 @@ defer对象
 <dt>Type</dt>
 
 <dd><span class="param-type">string</span></dd>
-
-</dl>
-
-#### <span class="type-signature"></span>getTimestamp<span class="signature">()</span> <span class="type-signature">→ {int}</span>
-
-<div class="description">
-
-获取UNIX标准时间戳
-
-</div>
-
-<dl class="details">
-
-<dt class="tag-source">Source:</dt>
-
-<dd class="tag-source">
-
-*   [index.js](index.js.html), [line 9](index.js.html#line9)
-
-</dd>
-
-</dl>
-
-##### Returns:
-
-<div class="param-desc">
-
-UNIX标准时间戳
-
-</div>
-
-<dl>
-
-<dt>Type</dt>
-
-<dd><span class="param-type">int</span></dd>
 
 </dl>
 
@@ -378,7 +334,7 @@ sha1或sha256
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 169](index.js.html#line169)
+*   [index.js](index.js.html), [line 183](index.js.html#line183)
 
 </dd>
 
@@ -446,7 +402,7 @@ IP数值
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 201](index.js.html#line201)
+*   [index.js](index.js.html), [line 215](index.js.html#line215)
 
 </dd>
 
@@ -520,7 +476,7 @@ IP地址，如1.2.3.4
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 176](index.js.html#line176)
+*   [index.js](index.js.html), [line 190](index.js.html#line190)
 
 </dd>
 
@@ -594,7 +550,7 @@ IP数值
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 75](index.js.html#line75)
+*   [index.js](index.js.html), [line 91](index.js.html#line91)
 
 </dd>
 
@@ -605,80 +561,6 @@ IP数值
 <div class="param-desc">
 
 真为空，假为非空
-
-</div>
-
-<dl>
-
-<dt>Type</dt>
-
-<dd><span class="param-type">boolean</span></dd>
-
-</dl>
-
-#### <span class="type-signature"></span>isNumberString<span class="signature">(obj)</span> <span class="type-signature">→ {boolean}</span>
-
-<div class="description">
-
-判断是否为数字字符串
-
-</div>
-
-##### Parameters:
-
-<table class="params">
-
-<thead>
-
-<tr>
-
-<th>Name</th>
-
-<th>Type</th>
-
-<th class="last">Description</th>
-
-</tr>
-
-</thead>
-
-<tbody>
-
-<tr>
-
-<td class="name">`obj`</td>
-
-<td class="type"><span class="param-type">*</span></td>
-
-<td class="description last">
-
-任意
-
-</td>
-
-</tr>
-
-</tbody>
-
-</table>
-
-<dl class="details">
-
-<dt class="tag-source">Source:</dt>
-
-<dd class="tag-source">
-
-*   [index.js](index.js.html), [line 49](index.js.html#line49)
-
-</dd>
-
-</dl>
-
-##### Returns:
-
-<div class="param-desc">
-
-是否为数字字符串
 
 </div>
 
@@ -738,7 +620,7 @@ MD5
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 146](index.js.html#line146)
+*   [index.js](index.js.html), [line 160](index.js.html#line160)
 
 </dd>
 
@@ -834,7 +716,7 @@ Pad Numbers
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 191](index.js.html#line191)
+*   [index.js](index.js.html), [line 205](index.js.html#line205)
 
 </dd>
 
@@ -922,7 +804,7 @@ n
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 126](index.js.html#line126)
+*   [index.js](index.js.html), [line 140](index.js.html#line140)
 
 </dd>
 
@@ -996,7 +878,7 @@ n
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 110](index.js.html#line110)
+*   [index.js](index.js.html), [line 129](index.js.html#line129)
 
 </dd>
 
@@ -1064,7 +946,7 @@ n
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 95](index.js.html#line95)
+*   [index.js](index.js.html), [line 119](index.js.html#line119)
 
 </dd>
 
@@ -1128,7 +1010,7 @@ SHA1
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 153](index.js.html#line153)
+*   [index.js](index.js.html), [line 167](index.js.html#line167)
 
 </dd>
 
@@ -1192,49 +1074,13 @@ SHA256
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 160](index.js.html#line160)
+*   [index.js](index.js.html), [line 174](index.js.html#line174)
 
 </dd>
 
 </dl>
 
 ##### Returns:
-
-<dl>
-
-<dt>Type</dt>
-
-<dd><span class="param-type">string</span></dd>
-
-</dl>
-
-#### <span class="type-signature"></span>uuid<span class="signature">()</span> <span class="type-signature">→ {string}</span>
-
-<div class="description">
-
-生成GUID
-
-</div>
-
-<dl class="details">
-
-<dt class="tag-source">Source:</dt>
-
-<dd class="tag-source">
-
-*   [index.js](index.js.html), [line 40](index.js.html#line40)
-
-</dd>
-
-</dl>
-
-##### Returns:
-
-<div class="param-desc">
-
-GUID
-
-</div>
 
 <dl>
 
@@ -1296,7 +1142,7 @@ validPassword
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 228](index.js.html#line228)
+*   [index.js](index.js.html), [line 242](index.js.html#line242)
 
 </dd>
 
