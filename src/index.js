@@ -3,6 +3,22 @@ const crypto = require('crypto');
 const uuidLib = require('uuid');
 
 /**
+ * 安全处理 JSON
+ * @param {string} str JSON字符串
+ * @return {object} JSON对象
+ * @playground
+ * const { JSONparse } = require('@dwing/common')
+ * const json = JSONparse('{"status": 1}');
+ * console.log(json);
+ */
+exports.JSONparse = (str) => {
+  try {
+    return JSON.parse(str);
+  } catch (e) {
+    return {};
+  }
+};
+/**
  * 获取UNIX标准时间戳
  * @return {int} UNIX标准时间戳
  * @playground
