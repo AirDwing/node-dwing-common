@@ -36,7 +36,7 @@ console.log(md5('1'));
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 77](index.js.html#line77)
+*   [index.js](index.js.html), [line 93](index.js.html#line93)
 
 </dd>
 
@@ -56,7 +56,7 @@ console.log(md5('1'));
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 84](index.js.html#line84)
+*   [index.js](index.js.html), [line 100](index.js.html#line100)
 
 </dd>
 
@@ -76,7 +76,7 @@ console.log(md5('1'));
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 52](index.js.html#line52)
+*   [index.js](index.js.html), [line 68](index.js.html#line68)
 
 </dd>
 
@@ -150,7 +150,7 @@ console.log(md5('1'));
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 25](index.js.html#line25)
+*   [index.js](index.js.html), [line 41](index.js.html#line41)
 
 </dd>
 
@@ -186,7 +186,7 @@ getDefer
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 161](index.js.html#line161)
+*   [index.js](index.js.html), [line 177](index.js.html#line177)
 
 </dd>
 
@@ -260,7 +260,7 @@ defer对象
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 273](index.js.html#line273)
+*   [index.js](index.js.html), [line 293](index.js.html#line293)
 
 </dd>
 
@@ -296,7 +296,7 @@ defer对象
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 13](index.js.html#line13)
+*   [index.js](index.js.html), [line 29](index.js.html#line29)
 
 </dd>
 
@@ -398,7 +398,7 @@ sha1或sha256
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 214](index.js.html#line214)
+*   [index.js](index.js.html), [line 230](index.js.html#line230)
 
 </dd>
 
@@ -466,7 +466,7 @@ IP数值
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 242](index.js.html#line242)
+*   [index.js](index.js.html), [line 258](index.js.html#line258)
 
 </dd>
 
@@ -540,7 +540,7 @@ IP地址，如1.2.3.4
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 225](index.js.html#line225)
+*   [index.js](index.js.html), [line 241](index.js.html#line241)
 
 </dd>
 
@@ -614,7 +614,7 @@ IP数值
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 95](index.js.html#line95)
+*   [index.js](index.js.html), [line 111](index.js.html#line111)
 
 </dd>
 
@@ -688,7 +688,7 @@ IP数值
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 65](index.js.html#line65)
+*   [index.js](index.js.html), [line 81](index.js.html#line81)
 
 </dd>
 
@@ -707,6 +707,80 @@ IP数值
 <dt>Type</dt>
 
 <dd><span class="param-type">boolean</span></dd>
+
+</dl>
+
+#### <span class="type-signature"></span>JSONparse<span class="signature">(str)</span> <span class="type-signature">→ {object}</span>
+
+<div class="description">
+
+安全处理 JSON
+
+</div>
+
+##### Parameters:
+
+<table class="params">
+
+<thead>
+
+<tr>
+
+<th>Name</th>
+
+<th>Type</th>
+
+<th class="last">Description</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td class="name">`str`</td>
+
+<td class="type"><span class="param-type">string</span></td>
+
+<td class="description last">
+
+JSON字符串
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+<dl class="details">
+
+<dt class="tag-source">Source:</dt>
+
+<dd class="tag-source">
+
+*   [index.js](index.js.html), [line 14](index.js.html#line14)
+
+</dd>
+
+</dl>
+
+##### Returns:
+
+<div class="param-desc">
+
+JSON对象
+
+</div>
+
+<dl>
+
+<dt>Type</dt>
+
+<dd><span class="param-type">object</span></dd>
 
 </dl>
 
@@ -758,7 +832,7 @@ MD5
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 179](index.js.html#line179)
+*   [index.js](index.js.html), [line 195](index.js.html#line195)
 
 </dd>
 
@@ -854,7 +928,7 @@ Pad Numbers
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 263](index.js.html#line263)
+*   [index.js](index.js.html), [line 279](index.js.html#line279)
 
 </dd>
 
@@ -942,7 +1016,7 @@ n
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 155](index.js.html#line155)
+*   [index.js](index.js.html), [line 171](index.js.html#line171)
 
 </dd>
 
@@ -1016,7 +1090,7 @@ n
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 140](index.js.html#line140)
+*   [index.js](index.js.html), [line 156](index.js.html#line156)
 
 </dd>
 
@@ -1090,7 +1164,7 @@ const { randNumberStr } = require('@dwing/common'); const str = randNumberStr(6)
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 127](index.js.html#line127)
+*   [index.js](index.js.html), [line 143](index.js.html#line143)
 
 </dd>
 
@@ -1154,7 +1228,7 @@ SHA1
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 190](index.js.html#line190)
+*   [index.js](index.js.html), [line 206](index.js.html#line206)
 
 </dd>
 
@@ -1218,7 +1292,7 @@ SHA256
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 201](index.js.html#line201)
+*   [index.js](index.js.html), [line 217](index.js.html#line217)
 
 </dd>
 
