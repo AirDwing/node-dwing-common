@@ -325,12 +325,12 @@ exports.validPassword = (password) => {
     } else {
       n[0] = 1;
     }
-    if (password.charAt(l - 1).charCodeAt(0) + 1 === password.charAt(l).charCodeAt(0)) {
+    if (password.charCodeAt(l - 1) + 1 === password.charCodeAt(l)) {
       n[1] += 1;
     } else {
       n[1] = 1;
     }
-    if (password.charAt(l - 1).charCodeAt(0) - 1 === password.charAt(l).charCodeAt(0)) {
+    if (password.charCodeAt(l - 1) - 1 === password.charCodeAt(l)) {
       n[2] += 1;
     } else {
       n[2] = 1;
