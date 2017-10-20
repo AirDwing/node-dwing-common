@@ -1308,6 +1308,80 @@ SHA256
 
 </dl>
 
+#### <span class="type-signature"></span>validPassword<span class="signature">(password)</span> <span class="type-signature">→ {boolean}</span>
+
+<div class="description">
+
+validPassword
+
+</div>
+
+##### Parameters:
+
+<table class="params">
+
+<thead>
+
+<tr>
+
+<th>Name</th>
+
+<th>Type</th>
+
+<th class="last">Description</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td class="name">`password`</td>
+
+<td class="type"><span class="param-type">string</span></td>
+
+<td class="description last">
+
+输入密码
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+<dl class="details">
+
+<dt class="tag-source">Source:</dt>
+
+<dd class="tag-source">
+
+*   [index.js](index.js.html), [line 305](index.js.html#line305)
+
+</dd>
+
+</dl>
+
+##### Returns:
+
+<div class="param-desc">
+
+isValid
+
+</div>
+
+<dl>
+
+<dt>Type</dt>
+
+<dd><span class="param-type">boolean</span></dd>
+
+</dl>
+
 ## License
 
 MIT

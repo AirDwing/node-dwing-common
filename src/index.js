@@ -297,41 +297,47 @@ exports.getMobile = (mobile) => {
   return mobile.replace(/^\+?86(\d*)/, '$1');
 };
 
-// /**
-//  * validPassword
-//  * @param  {string} password  输入密码
-//  * @return {boolean}          isValid
-//  */
-// exports.validPassword = (password) => {
-//   if (password.length < 6 || password.length > 18) {
-//     return false;
-//   }
-//   /*
-//    * 允许包含大小写、数字、空格、点、下划线、短横线、波浪线、问号、感叹号
-//    */
-//   // const regx = /^[A-Za-z0-9.-_~!? ]*$/;
-//   // if (!regx.test(password)) {
-//   //   return false;
-//   // }
-//   /*
-//    * 如 aaaaaa
-//    * 如 1234567 abcdef
-//    * 如 7654321 fedcba
-//    */
-//   const n = [1, 1, 1];
-//   for (let l = 1; l < password.length; l += 1) {
-//     if (password.charAt(l - 1) === password.charAt(l)) {
-//       n[0] += 1;
-//     }
-//     if (password.charAt(l - 1).charCodeAt(0) + 1 === password.charAt(l).charCodeAt(0)) {
-//       n[1] += 1;
-//     }
-//     if (password.charAt(l - 1).charCodeAt(0) - 1 === password.charAt(l).charCodeAt(0)) {
-//       n[2] += 1;
-//     }
-//     if (n[0] > 4 || n[1] > 4 || n[2] > 4) {
-//       return false;
-//     }
-//   }
-//   return true;
-// };
+/**
+ * validPassword
+ * @param  {string} password  输入密码
+ * @return {boolean}          isValid
+ */
+exports.validPassword = (password) => {
+  if (password.length < 6 || password.length > 18) {
+    return false;
+  }
+  /*
+   * 允许包含大小写、数字、空格、点、下划线、短横线、波浪线、问号、感叹号
+   */
+  // const regx = /^[A-Za-z0-9.-_~!? ]*$/;
+  // if (!regx.test(password)) {
+  //   return false;
+  // }
+  /*
+   * 如 aaaaaa
+   * 如 1234567 abcdef
+   * 如 7654321 fedcba
+   */
+  const n = [1, 1, 1];
+  for (let l = 1; l < password.length; l += 1) {
+    if (password.charAt(l - 1) === password.charAt(l)) {
+      n[0] += 1;
+    } else {
+      n[0] = 1;
+    }
+    if (password.charAt(l - 1).charCodeAt(0) + 1 === password.charAt(l).charCodeAt(0)) {
+      n[1] += 1;
+    } else {
+      n[1] = 1;
+    }
+    if (password.charAt(l - 1).charCodeAt(0) - 1 === password.charAt(l).charCodeAt(0)) {
+      n[2] += 1;
+    } else {
+      n[2] = 1;
+    }
+    if (n[0] > 4 || n[1] > 4 || n[2] > 4) {
+      return false;
+    }
+  }
+  return true;
+};
