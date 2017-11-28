@@ -123,11 +123,13 @@ exports.isEmpty = (obj) => {
   return false;
 };
 
+const rnd = seed => (((seed * 9301) + 49297) % 233280) / (233280.0);
+const rand = number => Math.floor(rnd(new Date().getTime() * Math.random()) * number);
 const randStr = (x, len) => {
   const maxPos = x.length;
   let pwd = '';
   for (let i = 0; i < len; i += 1) {
-    pwd += x.charAt(Math.floor(Math.random() * maxPos));
+    pwd += x.charAt(rand(maxPos));
   }
   return pwd;
 };

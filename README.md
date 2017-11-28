@@ -186,7 +186,7 @@ getDefer
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 177](index.js.html#line177)
+*   [index.js](index.js.html), [line 179](index.js.html#line179)
 
 </dd>
 
@@ -260,7 +260,7 @@ defer对象
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 293](index.js.html#line293)
+*   [index.js](index.js.html), [line 295](index.js.html#line295)
 
 </dd>
 
@@ -398,7 +398,7 @@ sha1或sha256
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 230](index.js.html#line230)
+*   [index.js](index.js.html), [line 232](index.js.html#line232)
 
 </dd>
 
@@ -466,7 +466,7 @@ IP数值
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 258](index.js.html#line258)
+*   [index.js](index.js.html), [line 260](index.js.html#line260)
 
 </dd>
 
@@ -540,7 +540,7 @@ IP地址，如1.2.3.4
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 241](index.js.html#line241)
+*   [index.js](index.js.html), [line 243](index.js.html#line243)
 
 </dd>
 
@@ -832,7 +832,7 @@ MD5
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 195](index.js.html#line195)
+*   [index.js](index.js.html), [line 197](index.js.html#line197)
 
 </dd>
 
@@ -928,7 +928,7 @@ Pad Numbers
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 279](index.js.html#line279)
+*   [index.js](index.js.html), [line 281](index.js.html#line281)
 
 </dd>
 
@@ -1016,7 +1016,7 @@ n
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 171](index.js.html#line171)
+*   [index.js](index.js.html), [line 173](index.js.html#line173)
 
 </dd>
 
@@ -1090,7 +1090,7 @@ n
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 156](index.js.html#line156)
+*   [index.js](index.js.html), [line 158](index.js.html#line158)
 
 </dd>
 
@@ -1164,7 +1164,7 @@ const { randNumberStr } = require('@dwing/common'); const str = randNumberStr(6)
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 143](index.js.html#line143)
+*   [index.js](index.js.html), [line 145](index.js.html#line145)
 
 </dd>
 
@@ -1228,7 +1228,7 @@ SHA1
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 206](index.js.html#line206)
+*   [index.js](index.js.html), [line 208](index.js.html#line208)
 
 </dd>
 
@@ -1292,7 +1292,7 @@ SHA256
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 217](index.js.html#line217)
+*   [index.js](index.js.html), [line 219](index.js.html#line219)
 
 </dd>
 
@@ -1360,7 +1360,7 @@ validPassword
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 305](index.js.html#line305)
+*   [index.js](index.js.html), [line 307](index.js.html#line307)
 
 </dd>
 
