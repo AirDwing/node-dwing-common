@@ -2,6 +2,7 @@ const test = require('ava');
 const { JSONparse, getTimestamp, formatDate, isNumberString, isEmpty, randStr, randNumberStr, randNumber, getDefer, md5, sha1, sha256, hmac, ip2int, int2ip, pad, getMobile, validPassword } = require('..');
 
 test('JSONparse', (t) => {
+  t.is(JSON.stringify(JSONparse(null)), JSON.stringify({}));
   t.is(JSON.stringify(JSONparse('}}')), JSON.stringify({}));
   t.is(JSON.stringify(JSONparse('{"status":1}')), JSON.stringify({ status: 1 }));
 });

@@ -11,7 +11,8 @@ const uuidLib = require('uuid');
  * const json = JSONparse('{"status": 1}');
  * console.log(json);
  */
-exports.JSONparse = (str = '') => {
+exports.JSONparse = (str) => {
+  if (str === null) return {};
   try {
     return JSON.parse(str);
   } catch (e) {

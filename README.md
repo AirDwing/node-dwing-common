@@ -36,7 +36,7 @@ console.log(md5('1'));
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 93](index.js.html#line93)
+*   [index.js](index.js.html), [line 94](index.js.html#line94)
 
 </dd>
 
@@ -56,7 +56,7 @@ console.log(md5('1'));
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 100](index.js.html#line100)
+*   [index.js](index.js.html), [line 101](index.js.html#line101)
 
 </dd>
 
@@ -76,7 +76,7 @@ console.log(md5('1'));
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 68](index.js.html#line68)
+*   [index.js](index.js.html), [line 69](index.js.html#line69)
 
 </dd>
 
@@ -150,7 +150,7 @@ console.log(md5('1'));
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 41](index.js.html#line41)
+*   [index.js](index.js.html), [line 42](index.js.html#line42)
 
 </dd>
 
@@ -186,7 +186,7 @@ getDefer
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 179](index.js.html#line179)
+*   [index.js](index.js.html), [line 180](index.js.html#line180)
 
 </dd>
 
@@ -260,7 +260,7 @@ defer对象
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 295](index.js.html#line295)
+*   [index.js](index.js.html), [line 296](index.js.html#line296)
 
 </dd>
 
@@ -296,7 +296,7 @@ defer对象
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 29](index.js.html#line29)
+*   [index.js](index.js.html), [line 30](index.js.html#line30)
 
 </dd>
 
@@ -398,7 +398,7 @@ sha1或sha256
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 232](index.js.html#line232)
+*   [index.js](index.js.html), [line 233](index.js.html#line233)
 
 </dd>
 
@@ -466,7 +466,7 @@ IP数值
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 260](index.js.html#line260)
+*   [index.js](index.js.html), [line 261](index.js.html#line261)
 
 </dd>
 
@@ -540,7 +540,7 @@ IP地址，如1.2.3.4
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 243](index.js.html#line243)
+*   [index.js](index.js.html), [line 244](index.js.html#line244)
 
 </dd>
 
@@ -614,7 +614,7 @@ IP数值
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 111](index.js.html#line111)
+*   [index.js](index.js.html), [line 112](index.js.html#line112)
 
 </dd>
 
@@ -688,7 +688,7 @@ IP数值
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 81](index.js.html#line81)
+*   [index.js](index.js.html), [line 82](index.js.html#line82)
 
 </dd>
 
@@ -832,7 +832,7 @@ MD5
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 197](index.js.html#line197)
+*   [index.js](index.js.html), [line 198](index.js.html#line198)
 
 </dd>
 
@@ -928,7 +928,7 @@ Pad Numbers
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 281](index.js.html#line281)
+*   [index.js](index.js.html), [line 282](index.js.html#line282)
 
 </dd>
 
@@ -1016,7 +1016,7 @@ n
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 173](index.js.html#line173)
+*   [index.js](index.js.html), [line 174](index.js.html#line174)
 
 </dd>
 
@@ -1090,7 +1090,7 @@ n
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 158](index.js.html#line158)
+*   [index.js](index.js.html), [line 159](index.js.html#line159)
 
 </dd>
 
@@ -1164,7 +1164,7 @@ const { randNumberStr } = require('@dwing/common'); const str = randNumberStr(6)
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 145](index.js.html#line145)
+*   [index.js](index.js.html), [line 146](index.js.html#line146)
 
 </dd>
 
@@ -1228,7 +1228,7 @@ SHA1
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 208](index.js.html#line208)
+*   [index.js](index.js.html), [line 209](index.js.html#line209)
 
 </dd>
 
@@ -1292,7 +1292,7 @@ SHA256
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 219](index.js.html#line219)
+*   [index.js](index.js.html), [line 220](index.js.html#line220)
 
 </dd>
 
@@ -1360,7 +1360,7 @@ validPassword
 
 <dd class="tag-source">
 
-*   [index.js](index.js.html), [line 307](index.js.html#line307)
+*   [index.js](index.js.html), [line 308](index.js.html#line308)
 
 </dd>
 
