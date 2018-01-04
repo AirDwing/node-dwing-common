@@ -15,7 +15,7 @@ test('formatDate', (t) => {
   t.is(typeof formatDate(), 'string');
   t.is(
     formatDate('yyyy-MM-dd'),
-    `${date.getFullYear()}-${date.getMonth() + 1 < 10 ? `0${date.getMonth() + 1}` : date.getMonth() + 1}-${date.getDate()}`
+    `${date.getFullYear()}-${date.getMonth() + 1 < 10 ? `0${date.getMonth() + 1}` : date.getMonth() + 1}-${date.getDate() < 10 ? `0${date.getDate()}` : date.getDate()}`
   );
   t.is(formatDate('yyyy-MM-dd', '2017-06-03'), '2017-06-03');
 });
